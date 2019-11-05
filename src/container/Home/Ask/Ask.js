@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import './ask.css'
-import {BrowserRouter as Router,Link,Route} from 'react-router-dom';
+import '../all.css'
+import {Link} from 'react-router-dom';
 export default class Ask extends Component {
     constructor(){
         super();

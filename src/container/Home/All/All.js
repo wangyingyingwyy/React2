@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './all.css'
+import '../all.css'
 import {BrowserRouter as Router,Link,Route} from 'react-router-dom';
 export default class All extends Component {
     constructor(){

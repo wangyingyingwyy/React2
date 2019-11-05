@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './job.css'
+import '../all.css'
 import {Link} from 'react-router-dom';
 export default class Job extends Component {
     constructor(){

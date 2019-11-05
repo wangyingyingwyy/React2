@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './share.css'
+import '../all.css'
 import {Link} from 'react-router-dom';
 export default class Share extends Component {
     constructor(){

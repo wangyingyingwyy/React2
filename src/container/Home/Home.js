@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {HashRouter as Router,Link,Route} from 'react-router-dom';
+import {Link,Route} from 'react-router-dom';
 import All from './All/All';
 import Good from './Good/Good';
 import Share from './Share/Share';
@@ -21,7 +21,6 @@ export default class Home extends Component {
                     <Link to={`${url}/job`}>招聘</Link>
                     <Link to={`${url}/dev`}>客户测试端</Link>
                 </div>
-                <Router>
                     <div>
                         <Route exact path={`${url}/all`} component={All}/>
                         <Route exact path={`${url}/good`} component={Good}/>
@@ -36,7 +35,6 @@ export default class Home extends Component {
                         <Route  path={`${url}/job/:id`} component={Job}/>
                         <Route  path={`${url}/dev/:id`} component={Dev}/>
                     </div>  
-                </Router>
             </div>
         )
     }

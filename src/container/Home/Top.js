@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './top.css'
+import './all.css'
 export default class Top extends Component {
     constructor(){
         super();
